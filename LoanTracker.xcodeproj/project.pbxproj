@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125CE67E2A06D3D8007C131B /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CE67D2A06D3D8007C131B /* PaymentView.swift */; };
+		127BA8282A057AFD00ABB636 /* Loan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BA8242A057AFD00ABB636 /* Loan+CoreDataClass.swift */; };
+		127BA8292A057AFD00ABB636 /* Loan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BA8252A057AFD00ABB636 /* Loan+CoreDataProperties.swift */; };
+		127BA82A2A057AFD00ABB636 /* Payment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BA8262A057AFD00ABB636 /* Payment+CoreDataClass.swift */; };
+		127BA82B2A057AFD00ABB636 /* Payment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BA8272A057AFD00ABB636 /* Payment+CoreDataProperties.swift */; };
+		127BA82E2A05937300ABB636 /* LoanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BA82D2A05937300ABB636 /* LoanCell.swift */; };
+		128606422A0C5A8200748BA2 /* PaymentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128606412A0C5A8200748BA2 /* PaymentObject.swift */; };
+		128606442A0C5DFD00748BA2 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128606432A0C5DFD00748BA2 /* Date + Extension.swift */; };
+		1287DC1C2A09680600C0C21F /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC1B2A09680600C0C21F /* AddPaymentView.swift */; };
+		1287DC1E2A096B6E00C0C21F /* AddPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC1D2A096B6E00C0C21F /* AddPaymentViewModel.swift */; };
+		1287DC202A09C53500C0C21F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC1F2A09C53500C0C21F /* Destination.swift */; };
+		1287DC222A0A156900C0C21F /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC212A0A156900C0C21F /* PaymentViewModel.swift */; };
+		1287DC242A0A1ADE00C0C21F /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC232A0A1ADE00C0C21F /* PaymentCell.swift */; };
+		1287DC272A0A1E7100C0C21F /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1287DC262A0A1E7100C0C21F /* ProgressBar.swift */; };
+		12A2B9192A0AD32000C6C35D /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2B9182A0AD32000C6C35D /* Progress.swift */; };
+		12FEE92B2A043F0500C93A11 /* LoanTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE92A2A043F0500C93A11 /* LoanTrackerApp.swift */; };
+		12FEE92D2A043F0500C93A11 /* AllLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE92C2A043F0500C93A11 /* AllLoanView.swift */; };
+		12FEE92F2A043F0600C93A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE92E2A043F0600C93A11 /* Assets.xcassets */; };
+		12FEE9322A043F0600C93A11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE9312A043F0600C93A11 /* Preview Assets.xcassets */; };
+		12FEE9342A043F0600C93A11 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE9332A043F0600C93A11 /* Persistence.swift */; };
+		12FEE9372A043F0600C93A11 /* LoanTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE9352A043F0600C93A11 /* LoanTracker.xcdatamodeld */; };
+		12FEE93F2A04533900C93A11 /* Loan_Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE93E2A04533900C93A11 /* Loan_Constants.swift */; };
+		12FEE9442A04542C00C93A11 /* AddLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE9432A04542C00C93A11 /* AddLoanView.swift */; };
+		12FEE9462A04844400C93A11 /* AddLoanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE9452A04844400C93A11 /* AddLoanViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125CE67D2A06D3D8007C131B /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentView.swift; path = LoanTracker/Model/PaymentView.swift; sourceTree = SOURCE_ROOT; };
+		127BA8242A057AFD00ABB636 /* Loan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		127BA8252A057AFD00ABB636 /* Loan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		127BA8262A057AFD00ABB636 /* Payment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		127BA8272A057AFD00ABB636 /* Payment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		127BA82D2A05937300ABB636 /* LoanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCell.swift; sourceTree = "<group>"; };
+		128606412A0C5A8200748BA2 /* PaymentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentObject.swift; sourceTree = "<group>"; };
+		128606432A0C5DFD00748BA2 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		1287DC1B2A09680600C0C21F /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
+		1287DC1D2A096B6E00C0C21F /* AddPaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewModel.swift; sourceTree = "<group>"; };
+		1287DC1F2A09C53500C0C21F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		1287DC212A0A156900C0C21F /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		1287DC232A0A1ADE00C0C21F /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		1287DC262A0A1E7100C0C21F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		12A2B9182A0AD32000C6C35D /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		12FEE9272A043F0500C93A11 /* LoanTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FEE92A2A043F0500C93A11 /* LoanTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanTrackerApp.swift; sourceTree = "<group>"; };
+		12FEE92C2A043F0500C93A11 /* AllLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLoanView.swift; sourceTree = "<group>"; };
+		12FEE92E2A043F0600C93A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12FEE9312A043F0600C93A11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12FEE9332A043F0600C93A11 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		12FEE9362A043F0600C93A11 /* LoanTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanTracker.xcdatamodel; sourceTree = "<group>"; };
+		12FEE93E2A04533900C93A11 /* Loan_Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan_Constants.swift; sourceTree = "<group>"; };
+		12FEE9432A04542C00C93A11 /* AddLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanView.swift; sourceTree = "<group>"; };
+		12FEE9452A04844400C93A11 /* AddLoanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12FEE9242A043F0500C93A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127BA82C2A05934600ABB636 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE9332A043F0600C93A11 /* Persistence.swift */,
+				12FEE9352A043F0600C93A11 /* LoanTracker.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		1287DC252A0A1E5A00C0C21F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				127BA82D2A05937300ABB636 /* LoanCell.swift */,
+				1287DC232A0A1ADE00C0C21F /* PaymentCell.swift */,
+				1287DC262A0A1E7100C0C21F /* ProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		12FEE91E2A043F0500C93A11 = {
+			isa = PBXGroup;
+			children = (
+				12FEE9292A043F0500C93A11 /* LoanTracker */,
+				12FEE9282A043F0500C93A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12FEE9282A043F0500C93A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE9272A043F0500C93A11 /* LoanTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FEE9292A043F0500C93A11 /* LoanTracker */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE92A2A043F0500C93A11 /* LoanTrackerApp.swift */,
+				128606432A0C5DFD00748BA2 /* Date + Extension.swift */,
+				12FEE93D2A04531400C93A11 /* Constants */,
+				12FEE9412A0453FD00C93A11 /* Model */,
+				12FEE9402A0453DD00C93A11 /* View */,
+				12FEE9422A04540500C93A11 /* ViewModel */,
+				12FEE92E2A043F0600C93A11 /* Assets.xcassets */,
+				127BA82C2A05934600ABB636 /* Core Data */,
+				12FEE9302A043F0600C93A11 /* Preview Content */,
+			);
+			path = LoanTracker;
+			sourceTree = "<group>";
+		};
+		12FEE9302A043F0600C93A11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE9312A043F0600C93A11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12FEE93D2A04531400C93A11 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE93E2A04533900C93A11 /* Loan_Constants.swift */,
+				1287DC1F2A09C53500C0C21F /* Destination.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		12FEE9402A0453DD00C93A11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE92C2A043F0500C93A11 /* AllLoanView.swift */,
+				125CE67D2A06D3D8007C131B /* PaymentView.swift */,
+				12FEE9432A04542C00C93A11 /* AddLoanView.swift */,
+				1287DC1B2A09680600C0C21F /* AddPaymentView.swift */,
+				1287DC252A0A1E5A00C0C21F /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12FEE9412A0453FD00C93A11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				127BA8242A057AFD00ABB636 /* Loan+CoreDataClass.swift */,
+				127BA8252A057AFD00ABB636 /* Loan+CoreDataProperties.swift */,
+				127BA8262A057AFD00ABB636 /* Payment+CoreDataClass.swift */,
+				127BA8272A057AFD00ABB636 /* Payment+CoreDataProperties.swift */,
+				12A2B9182A0AD32000C6C35D /* Progress.swift */,
+				128606412A0C5A8200748BA2 /* PaymentObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12FEE9422A04540500C93A11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE9452A04844400C93A11 /* AddLoanViewModel.swift */,
+				1287DC1D2A096B6E00C0C21F /* AddPaymentViewModel.swift */,
+				1287DC212A0A156900C0C21F /* PaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12FEE9262A043F0500C93A11 /* LoanTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FEE93A2A043F0600C93A11 /* Build configuration list for PBXNativeTarget "LoanTracker" */;
+			buildPhases = (
+				12FEE9232A043F0500C93A11 /* Sources */,
+				12FEE9242A043F0500C93A11 /* Frameworks */,
+				12FEE9252A043F0500C93A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanTracker;
+			productName = LoanTracker;
+			productReference = 12FEE9272A043F0500C93A11 /* LoanTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12FEE91F2A043F0500C93A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					12FEE9262A043F0500C93A11 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 12FEE9222A043F0500C93A11 /* Build configuration list for PBXProject "LoanTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12FEE91E2A043F0500C93A11;
+			productRefGroup = 12FEE9282A043F0500C93A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12FEE9262A043F0500C93A11 /* LoanTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12FEE9252A043F0500C93A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FEE9322A043F0600C93A11 /* Preview Assets.xcassets in Resources */,
+				12FEE92F2A043F0600C93A11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FEE9232A043F0500C93A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128606422A0C5A8200748BA2 /* PaymentObject.swift in Sources */,
+				128606442A0C5DFD00748BA2 /* Date + Extension.swift in Sources */,
+				12FEE9342A043F0600C93A11 /* Persistence.swift in Sources */,
+				1287DC272A0A1E7100C0C21F /* ProgressBar.swift in Sources */,
+				1287DC1E2A096B6E00C0C21F /* AddPaymentViewModel.swift in Sources */,
+				127BA8282A057AFD00ABB636 /* Loan+CoreDataClass.swift in Sources */,
+				12FEE92D2A043F0500C93A11 /* AllLoanView.swift in Sources */,
+				1287DC1C2A09680600C0C21F /* AddPaymentView.swift in Sources */,
+				12A2B9192A0AD32000C6C35D /* Progress.swift in Sources */,
+				127BA82E2A05937300ABB636 /* LoanCell.swift in Sources */,
+				1287DC242A0A1ADE00C0C21F /* PaymentCell.swift in Sources */,
+				12FEE9442A04542C00C93A11 /* AddLoanView.swift in Sources */,
+				12FEE9372A043F0600C93A11 /* LoanTracker.xcdatamodeld in Sources */,
+				127BA8292A057AFD00ABB636 /* Loan+CoreDataProperties.swift in Sources */,
+				125CE67E2A06D3D8007C131B /* PaymentView.swift in Sources */,
+				127BA82A2A057AFD00ABB636 /* Payment+CoreDataClass.swift in Sources */,
+				1287DC222A0A156900C0C21F /* PaymentViewModel.swift in Sources */,
+				12FEE93F2A04533900C93A11 /* Loan_Constants.swift in Sources */,
+				127BA82B2A057AFD00ABB636 /* Payment+CoreDataProperties.swift in Sources */,
+				12FEE92B2A043F0500C93A11 /* LoanTrackerApp.swift in Sources */,
+				1287DC202A09C53500C0C21F /* Destination.swift in Sources */,
+				12FEE9462A04844400C93A11 /* AddLoanViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12FEE9382A043F0600C93A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12FEE9392A043F0600C93A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FEE93B2A043F0600C93A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogalakshmi.LoanTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12FEE93C2A043F0600C93A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogalakshmi.LoanTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FEE9222A043F0500C93A11 /* Build configuration list for PBXProject "LoanTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FEE9382A043F0600C93A11 /* Debug */,
+				12FEE9392A043F0600C93A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FEE93A2A043F0600C93A11 /* Build configuration list for PBXNativeTarget "LoanTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FEE93B2A043F0600C93A11 /* Debug */,
+				12FEE93C2A043F0600C93A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12FEE9352A043F0600C93A11 /* LoanTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12FEE9362A043F0600C93A11 /* LoanTracker.xcdatamodel */,
+			);
+			currentVersion = 12FEE9362A043F0600C93A11 /* LoanTracker.xcdatamodel */;
+			path = LoanTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12FEE91F2A043F0500C93A11 /* Project object */;
+}
